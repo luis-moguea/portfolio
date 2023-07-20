@@ -32,12 +32,14 @@ const ProjectsSection = () => {
               key={index}
               description={el.description}
               image={el.projectPng}
+              link={el.deployment}
             />
           ) : (
             <ProjectComponentOdd
               key={index}
               description={el.description}
               image={el.projectPng}
+              link={el.deployment}
             />
           )
         )}

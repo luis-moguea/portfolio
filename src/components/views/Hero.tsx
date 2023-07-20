@@ -1,4 +1,4 @@
-import { Box, HStack, Text } from "@chakra-ui/react";
+import { Box, HStack, Link, Text } from "@chakra-ui/react";
 import githubIcon from "../../assets/pngegg.png";
 import linkedInIcon from "../../assets/pngegg (1).png";
 import Icons from "../../animations/Icons";
@@ -30,7 +30,9 @@ const Hero = () => {
           {description}
         </Text>
         <HStack>
-          <Icons image={githubIcon} />
+          <Link href="https://github.com/luis-moguea" isExternal>
+            <Icons image={githubIcon} />
+          </Link>
           <Icons image={linkedInIcon} />
         </HStack>
       </Box>
