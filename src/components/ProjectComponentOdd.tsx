@@ -1,4 +1,5 @@
 import { Image, Box, Button, Flex, Heading, Link } from "@chakra-ui/react";
+import ButtonAnimation from "../animations/ButtonAnimation";
 
 interface Props {
   image: string;
@@ -9,23 +10,15 @@ const ProjectComponentOdd = ({ image, description, link }: Props) => {
   return (
     <>
       <Flex padding="2em" justifyContent="space-between">
-        <Box marginX="80px">
-          <Heading fontSize="36px">{description}</Heading>
-          <Link href={link} isExternal>
-            <Button
-              mt="0"
-              border="none"
-              fontSize="12px"
-              padding="1em"
-              paddingX="1.4em"
-              borderRadius="20px"
-              bgColor="#D5D8DC"
-              cursor="pointer"
-              _hover={{ opacity: "0.3" }}
-            >
-              See Project →
-            </Button>
-          </Link>
+        <Box marginX="40px">
+          <Heading
+            fontSize="36px"
+            wordBreak="break-all"
+            textOverflow="ellipsis"
+          >
+            {description}
+          </Heading>
+          <ButtonAnimation link={link} />
         </Box>
         <Image width="400px" src={image} />
       </Flex>

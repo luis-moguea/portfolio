@@ -2,8 +2,10 @@ import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
 import Languages from "../../animations/Languages";
 import { languagesData } from "../../models/languagesData";
 import { style } from "./NavBar";
+import LanguageHeading from "../../animations/LanguageHeading";
 
 const LanguagesSection = () => {
+  const langTitle = "Languages & Tools";
   return (
     <>
       <Box>
@@ -11,9 +13,9 @@ const LanguagesSection = () => {
           textAlign="center"
           backgroundClip="text"
           style={style}
-          fontSize="36px"
+          fontSize="22px"
         >
-          Languages & Tools
+          <LanguageHeading title={langTitle} />
         </Heading>
         <SimpleGrid columns={4}>
           {languagesData.map((el, index) => (

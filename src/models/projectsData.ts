@@ -8,32 +8,32 @@ export const projectsData = [
     {
         project: "Videogames App",
         projectPng: gamesPng,
-        description: "Videogames app using React, Chakra and the RAWG api.",
+        description: "Videogames app using React, Chakra UI and the RAWG api.",
         deployment: "https://react-videogames-dashboard.vercel.app/"
     },
     {
         project: "To-do",
         projectPng: todoPng,
-        description: "Videogames app using React, Chakra and the RAWG api.",
+        description: "Todo app using React, TypeScript, Chakra UI, and React dnd.",
         deployment: "https://dnd-todo-git-main-luis-moguea.vercel.app/"
 
     },
     {
         project: "Weather App",
         projectPng: weatherPng,
-        description: "Videogames app using React, Chakra and the RAWG api.",
+        description: "Weather app using React, TypeScript, Chakra UI, and the OpenWeather api.",
         deployment: "https://main--silly-souffle-fd6989.netlify.app/"
-    },
-    {
-        project: "Dashboard",
-        projectPng: dashboardPng,
-        description: "Videogames app using React, Chakra and the RAWG api.",
-        deployment: "https://dashboard-one-iota.vercel.app/"
     },
     {
         project: "Programming Languages",
         projectPng: langPng,
-        description: "Videogames app using React, Chakra and the RAWG api.",
+        description: "Languages interface app using React, TypeScript, Chakra UI, Dnd kit and React Router.",
         deployment: "https://languages-dnd-git-main-luis-moguea.vercel.app/"
+    },
+    {
+        project: "Dashboard",
+        projectPng: dashboardPng,
+        description: "Simple dashboard interface using HTML, CSS and JavaScript.",
+        deployment: "https://dashboard-one-iota.vercel.app/"
     },
 ]

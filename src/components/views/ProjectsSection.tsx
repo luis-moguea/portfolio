@@ -5,8 +5,10 @@ import { style } from "./NavBar";
 
 import { even } from "../../utils/conditional";
 import ProjectComponentOdd from "../ProjectComponentOdd";
+import LanguageHeading from "../../animations/LanguageHeading";
 
 const ProjectsSection = () => {
+  const projectsTitle = "Projects";
   return (
     <>
       <Box
@@ -15,16 +17,16 @@ const ProjectsSection = () => {
         pt="0"
         mt="0"
         padding="2em"
-        maxWidth="1000px"
+        maxWidth="1100px"
       >
         <Heading
           textAlign="center"
           style={style}
           backgroundClip="text"
           mt="-30px"
-          fontSize="36px"
+          fontSize="22px"
         >
-          Projects
+          <LanguageHeading title={projectsTitle} />
         </Heading>
         {projectsData.map((el, index) =>
           even(index) ? (
