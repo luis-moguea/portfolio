@@ -6,13 +6,13 @@ import { style } from "./NavBar";
 const LanguagesSection = () => {
   return (
     <>
-      <Box
-        display="flex"
-        flexDirection="column"
-        alignItems="center"
-        justifyContent="center"
-      >
-        <Heading backgroundClip="text" style={style} fontSize="36px">
+      <Box>
+        <Heading
+          textAlign="center"
+          backgroundClip="text"
+          style={style}
+          fontSize="36px"
+        >
           Languages & Tools
         </Heading>
         <SimpleGrid columns={4}>

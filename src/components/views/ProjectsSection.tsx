@@ -15,10 +15,15 @@ const ProjectsSection = () => {
         pt="0"
         mt="0"
         padding="2em"
-        justifyContent="center"
-        alignItems="center"
+        maxWidth="1000px"
       >
-        <Heading style={style} backgroundClip="text" mt="-30px" fontSize="36px">
+        <Heading
+          textAlign="center"
+          style={style}
+          backgroundClip="text"
+          mt="-30px"
+          fontSize="36px"
+        >
           Projects
         </Heading>
         {projectsData.map((el, index) =>

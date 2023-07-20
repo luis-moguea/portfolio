@@ -26,7 +26,7 @@ const Hero = () => {
           ))}
         </HStack>
 
-        <Text maxWidth="800px" fontSize="24">
+        <Text mt="0" maxWidth="800px" fontSize="24">
           {description}
         </Text>
         <HStack>

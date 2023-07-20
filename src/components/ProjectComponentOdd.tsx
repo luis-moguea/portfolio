@@ -1,4 +1,4 @@
-import { Image, Text, HStack, Box, Button } from "@chakra-ui/react";
+import { Image, Box, Button, Flex, Heading } from "@chakra-ui/react";
 
 interface Props {
   image: string;
@@ -7,13 +7,25 @@ interface Props {
 const ProjectComponentOdd = ({ image, description }: Props) => {
   return (
     <>
-      <HStack padding="2em">
-        <Box marginX="100px">
-          <Text>{description}</Text>
-          <Button float="left">See Project →</Button>
+      <Flex padding="2em" justifyContent="space-between">
+        <Box marginX="80px">
+          <Heading fontSize="36px">{description}</Heading>
+          <Button
+            mt="0"
+            border="none"
+            fontSize="12px"
+            padding="1em"
+            paddingX="1.4em"
+            borderRadius="20px"
+            bgColor="#D5D8DC"
+            cursor="pointer"
+            _hover={{ opacity: "0.3" }}
+          >
+            See Project →
+          </Button>
         </Box>
-        <Image src={image} />
-      </HStack>
+        <Image width="400px" src={image} />
+      </Flex>
     </>
   );
 };
