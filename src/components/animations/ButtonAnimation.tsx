@@ -9,7 +9,7 @@ interface Props {
 const ButtonAnimation = ({ link }: Props) => {
   return (
     <motion.div whileHover={{ x: "30px" }} transition={{ duration: 0.2 }}>
-      <Link href={link} isExternal>
+      <Link href={link} isExternal textDecoration="none" color="black">
         <Button
           mt="0"
           border="none"
