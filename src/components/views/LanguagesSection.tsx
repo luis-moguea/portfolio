@@ -1,8 +1,8 @@
 import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
-import Languages from "../../animations/Languages";
+import Languages from "../animations/Languages";
 import { languagesData } from "../../models/languagesData";
 import { style } from "./NavBar";
-import LanguageHeading from "../../animations/LanguageHeading";
+import LanguageHeading from "../animations/LanguageHeading";
 import { useMediaQuery } from "@chakra-ui/react";
 
 const LanguagesSection = () => {
@@ -23,11 +23,14 @@ const LanguagesSection = () => {
           textAlign="center"
           backgroundClip="text"
           style={style}
-          fontSize={isHigherThan480 ? "36px" : "22px"}
+          fontSize={isHigherThan480 ? "36px" : "34px"}
         >
           <LanguageHeading title={langTitle} />
         </Heading>
-        <SimpleGrid columns={isHigherThan480 ? 4 : 2}>
+        <SimpleGrid
+          columns={isHigherThan480 ? 4 : 2}
+          columnGap={isHigherThan480 ? "unset" : "20px"}
+        >
           {languagesData.map((el, index) => (
             <Languages key={index} icon={el.icon} language={el.language} />
           ))}

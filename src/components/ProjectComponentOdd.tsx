@@ -1,5 +1,5 @@
 import { Image, Box, Heading, useMediaQuery } from "@chakra-ui/react";
-import ButtonAnimation from "../animations/ButtonAnimation";
+import ButtonAnimation from "./animations/ButtonAnimation";
 
 interface Props {
   image: string;

@@ -16,7 +16,7 @@ const Icons = ({ image }: Props) => {
     >
       <Image
         mt={isHigherThan480 ? "unset" : "20px"}
-        width={isHigherThan480 ? "40px" : "24px"}
+        width={isHigherThan480 ? "40px" : "34px"}
         src={image}
       />
     </motion.div>

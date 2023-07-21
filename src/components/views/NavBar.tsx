@@ -1,7 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import photo from "../../assets/profile-pic.jpeg";
 import Name from "../Name";
-import Photo from "../../animations/Photo";
+import Photo from "../animations/Photo";
 import { useMediaQuery } from "@chakra-ui/react";
 
 export const style = {

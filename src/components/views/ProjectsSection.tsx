@@ -5,7 +5,7 @@ import { style } from "./NavBar";
 
 import { even } from "../../utils/conditional";
 import ProjectComponentOdd from "../ProjectComponentOdd";
-import LanguageHeading from "../../animations/LanguageHeading";
+import LanguageHeading from "../animations/LanguageHeading";
 
 const ProjectsSection = () => {
   const [isHigherThan480] = useMediaQuery("(min-width: 480px)");

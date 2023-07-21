@@ -19,14 +19,14 @@ const Languages = ({ icon, language }: Props) => {
           boxShadow="8px 8px 14px 2px rgba(0, 0, 0, 0.2)"
           margin="10px"
           mb="0"
-          padding="2em"
-          width={isHigherThan480 ? "65px" : "20px"}
-          height={isHigherThan480 ? "65px" : "20px"}
+          padding={isHigherThan480 ? "2em" : "1.8em"}
+          width={isHigherThan480 ? "65px" : "50px"}
+          height={isHigherThan480 ? "65px" : "50px"}
           objectFit="cover"
           src={icon}
         />
         <Text
-          fontSize={isHigherThan480 ? "20px" : "13px"}
+          fontSize={isHigherThan480 ? "20px" : "18px"}
           color="#95A5A6"
           mt="1px"
           fontWeight="bold"
