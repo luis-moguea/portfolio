@@ -1,7 +1,8 @@
-import { HStack, Text } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import photo from "../../assets/profile-pic.jpeg";
 import Name from "../Name";
 import Photo from "../../animations/Photo";
+import { useMediaQuery } from "@chakra-ui/react";
 
 export const style = {
   backgroundImage:
@@ -9,20 +10,22 @@ export const style = {
 };
 
 const NavBar = () => {
+  const [isHigherThan480] = useMediaQuery("(min-width: 480px)");
   return (
     <>
-      <HStack
-        marginTop="-40px"
+      <Box
+        display="flex"
+        flexDirection={isHigherThan480 ? "unset" : "column"}
+        justifyContent={isHigherThan480 ? "space-between" : "center"}
+        alignItems={isHigherThan480 ? "unset" : "center"}
+        marginTop="0"
         pt="0"
         padding="2em"
         pb="0"
-        justifyContent="space-between"
       >
         <Photo icon={photo} />
-        <Text style={style} backgroundClip="text">
-          <Name />
-        </Text>
-      </HStack>
+        <Name />
+      </Box>
     </>
   );
 };
