@@ -15,6 +15,9 @@ const Experience = () => {
         padding="2em"
         pt="0"
         textAlign="center"
+        borderBottom="solid"
+        borderColor="rgba(0, 0, 0, 0.2)"
+        borderWidth="1px"
       >
         <Heading style={style} backgroundClip="text" fontSize="22">
           <ExperienceHeading title={experienceHead} />

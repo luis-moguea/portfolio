@@ -19,6 +19,9 @@ const Hero = () => {
         pt="0"
         textAlign="center"
         mt="-45px"
+        borderBottom="solid"
+        borderColor="rgba(0, 0, 0, 0.2)"
+        borderWidth="1px"
       >
         <HStack fontSize="32px">
           {title.split("").map((letter, index) => (

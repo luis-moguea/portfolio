@@ -8,8 +8,15 @@ const LanguagesSection = () => {
   const langTitle = "Languages & Tools";
   return (
     <>
-      <Box>
+      <Box
+        m="0"
+        p="0"
+        borderBottom="solid"
+        borderColor="rgba(0, 0, 0, 0.2)"
+        borderWidth="1px"
+      >
         <Heading
+          mt="0px"
           textAlign="center"
           backgroundClip="text"
           style={style}
