@@ -26,7 +26,7 @@ const ProjectsSection = () => {
           style={style}
           backgroundClip="text"
           mt={isHigherThan480 ? "0" : "-12px"}
-          fontSize={isHigherThan480 ? "36px" : "22px"}
+          fontSize={isHigherThan480 ? "36px" : "34px"}
         >
           <LanguageHeading title={projectsTitle} />
         </Heading>

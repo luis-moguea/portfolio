@@ -33,7 +33,7 @@ const Experience = () => {
           fontSize={isHigherThan480 ? "24px" : "21px"}
           textAlign={isHigherThan480 ? "unset" : "justify"}
         >
-          "I have gained valuable experience working on personal projects,
+          I have gained valuable experience working on personal projects,
           utilizing a diverse set of technologies and tools. With a strong grasp
           of APIs, I have integrated them seamlessly into my projects,
           harnessing the power of React and its various libraries to create
@@ -46,7 +46,7 @@ const Experience = () => {
           Additionally, I have a basic understanding of Express and Node.js,
           complemented by my knowledge of Postman for API testing. With this
           skill set, I am eager to tackle new challenges and contribute to
-          innovative projects.";
+          innovative projects.
         </Text>
       </Box>
     </>

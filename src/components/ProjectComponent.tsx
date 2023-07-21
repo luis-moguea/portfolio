@@ -20,14 +20,20 @@ const ProjectComponent = ({ image, description, link }: Props) => {
         justifyContent={isHigherThan480 ? "space-between" : "center"}
       >
         <Image
-          width={isHigherThan480 ? "400px" : "200px"}
-          height={isHigherThan480 ? "unset" : "120px"}
+          width={isHigherThan480 ? "400px" : "330px"}
+          height={isHigherThan480 ? "unset" : "200px"}
           src={image}
         />
-        <Box marginX="40px">
+        <Box
+          marginX={isHigherThan480 ? "40px" : "unset"}
+          display={isHigherThan480 ? "unset" : "flex"}
+          flexDirection={isHigherThan480 ? "unset" : "column"}
+          alignItems={isHigherThan480 ? "unset" : "center"}
+          justifyContent={isHigherThan480 ? "unset" : "center"}
+        >
           <Heading
-            fontSize={isHigherThan480 ? "36px" : "16px"}
-            wordBreak="break-all"
+            fontSize={isHigherThan480 ? "36px" : "34px"}
+            textAlign="justify"
           >
             {description}
           </Heading>

@@ -38,11 +38,11 @@ const Hero = () => {
           fontSize={isHigherThan480 ? "24px" : "18px"}
           textAlign={isHigherThan480 ? "unset" : "justify"}
         >
-          "Hello! I'm a passionate junior frontend developer creating engaging
+          Hello! I'm a passionate junior frontend developer creating engaging
           web experiences. <br />
           <br />I turn designs into appealing, responsive websites using HTML,
           CSS, JavaScript and React. Eager to learn and stay up-to-date with
-          trends. Let's build something awesome together!";
+          trends. Let's build something awesome together!
         </Text>
         <HStack>
           <Link href="https://github.com/luis-moguea" isExternal>
