@@ -6,9 +6,9 @@ interface Props {
 
 const ExperienceHeading = ({ title }: Props) => {
   return (
-    <motion.h1 whileHover={{ color: "#76D7C4", x: "60px", cursor: "pointer" }}>
+    <motion.div whileHover={{ color: "#76D7C4", x: "60px", cursor: "pointer" }}>
       {title}
-    </motion.h1>
+    </motion.div>
   );
 };
 

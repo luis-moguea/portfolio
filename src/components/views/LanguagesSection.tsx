@@ -3,8 +3,11 @@ import Languages from "../../animations/Languages";
 import { languagesData } from "../../models/languagesData";
 import { style } from "./NavBar";
 import LanguageHeading from "../../animations/LanguageHeading";
+import { useMediaQuery } from "@chakra-ui/react";
 
 const LanguagesSection = () => {
+  const [isHigherThan480] = useMediaQuery("(min-width: 480px)");
+
   const langTitle = "Languages & Tools";
   return (
     <>
@@ -16,15 +19,15 @@ const LanguagesSection = () => {
         borderWidth="1px"
       >
         <Heading
-          mt="0px"
+          mt="20px"
           textAlign="center"
           backgroundClip="text"
           style={style}
-          fontSize="22px"
+          fontSize={isHigherThan480 ? "36px" : "22px"}
         >
           <LanguageHeading title={langTitle} />
         </Heading>
-        <SimpleGrid columns={4}>
+        <SimpleGrid columns={isHigherThan480 ? 4 : 2}>
           {languagesData.map((el, index) => (
             <Languages key={index} icon={el.icon} language={el.language} />
           ))}

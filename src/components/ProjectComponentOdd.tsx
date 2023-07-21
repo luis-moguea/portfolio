@@ -1,4 +1,4 @@
-import { Image, Box, Button, Flex, Heading, Link } from "@chakra-ui/react";
+import { Image, Box, Flex, Heading, useMediaQuery } from "@chakra-ui/react";
 import ButtonAnimation from "../animations/ButtonAnimation";
 
 interface Props {
@@ -7,12 +7,18 @@ interface Props {
   link: string;
 }
 const ProjectComponentOdd = ({ image, description, link }: Props) => {
+  const [isHigherThan480] = useMediaQuery("(min-width: 480px)");
+
   return (
     <>
-      <Flex padding="2em" justifyContent="space-between">
+      <Box
+        display={isHigherThan480 ? "flex" : "block"}
+        padding="2em"
+        justifyContent="space-between"
+      >
         <Box marginX="40px">
           <Heading
-            fontSize="36px"
+            fontSize={isHigherThan480 ? "36px" : "16px"}
             wordBreak="break-all"
             textOverflow="ellipsis"
           >
@@ -20,8 +26,12 @@ const ProjectComponentOdd = ({ image, description, link }: Props) => {
           </Heading>
           <ButtonAnimation link={link} />
         </Box>
-        <Image width="400px" src={image} />
-      </Flex>
+        <Image
+          width={isHigherThan480 ? "400px" : "200px"}
+          height={isHigherThan480 ? "unset" : "70px"}
+          src={image}
+        />
+      </Box>
     </>
   );
 };
