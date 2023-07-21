@@ -1,7 +1,7 @@
 import todoPng from "../assets/todo-png.png"
 import weatherPng from "../assets/weather-png.png"
 import dashboardPng from "../assets/dashboard-png.png"
-import gamesPng from "../assets/game-png.png"
+import gamesPng from "../assets/games-png.png"
 import langPng from "../assets/lang-png.png"
 
 export const projectsData = [
