@@ -34,15 +34,17 @@ const Hero = () => {
         </HStack>
         <Text
           mt={isHigherThan480 ? "0" : "20px"}
-          maxWidth={isHigherThan480 ? "unset" : "280px"}
-          fontSize={isHigherThan480 ? "24px" : "18px"}
+          maxWidth={isHigherThan480 ? "unset" : "360px"}
+          fontSize={isHigherThan480 ? "24px" : "20px"}
           textAlign={isHigherThan480 ? "unset" : "justify"}
         >
-          Hello! I'm a passionate frontend developer creating engaging web
-          experiences. <br />
+          Hello there! I'm Luis, a passionate frontend developer with expertise
+          in creating engaging web experiences. <br />
           <br />I turn designs into appealing, responsive websites using HTML,
-          CSS, JavaScript and React. Eager to learn and stay up-to-date with
-          trends. Let's build something awesome together!
+          CSS, JavaScript, React, and TypeScript. <br />
+          <br /> Always eager to stay up-to-date with trends, I'm excited to
+          collaborate and build something awesome together! Let's make the web a
+          better place! 🚀
         </Text>
         <HStack>
           <Link href="https://github.com/luis-moguea" isExternal>
