@@ -1,11 +1,10 @@
-import { Box, Heading, useMediaQuery } from "@chakra-ui/react";
+import { Box, useMediaQuery, Text } from "@chakra-ui/react";
 import { projectsData } from "../../models/projectsData";
 import ProjectComponent from "../ProjectComponent";
-import { style } from "./NavBar";
 
 import { even } from "../../utils/conditional";
 import ProjectComponentOdd from "../ProjectComponentOdd";
-import LanguageHeading from "../animations/LanguageHeading";
+import ProjectHeading from "../animations/ProjectHeading";
 
 const ProjectsSection = () => {
   const [isHigherThan480] = useMediaQuery("(min-width: 480px)");
@@ -21,15 +20,14 @@ const ProjectsSection = () => {
         padding="2em"
         maxWidth={isHigherThan480 ? "1100px" : "380px"}
       >
-        <Heading
+        <Text
+          fontWeight="bold"
           textAlign="center"
-          style={style}
-          backgroundClip="text"
           mt={isHigherThan480 ? "0" : "-12px"}
-          fontSize={isHigherThan480 ? "36px" : "34px"}
+          fontSize="48px"
         >
-          <LanguageHeading title={projectsTitle} />
-        </Heading>
+          <ProjectHeading title={projectsTitle} />
+        </Text>
         {isHigherThan480
           ? projectsData.map((el, index) =>
               even(index) ? (
