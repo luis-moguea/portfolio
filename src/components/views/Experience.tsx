@@ -18,7 +18,7 @@ const Experience = () => {
         borderBottom="solid"
         borderColor="rgba(0, 0, 0, 0.2)"
         borderWidth="1px"
-        maxWidth={isHigherThan480 ? "unset" : "280px"}
+        maxWidth={isHigherThan480 ? "unset" : "360px"}
       >
         <Heading
           style={style}
@@ -30,23 +30,42 @@ const Experience = () => {
         <Text
           mt="0"
           maxWidth="800px"
-          fontSize={isHigherThan480 ? "24px" : "21px"}
+          fontSize={isHigherThan480 ? "24px" : "20px"}
           textAlign={isHigherThan480 ? "unset" : "justify"}
         >
-          I have gained valuable experience working on personal projects,
-          utilizing a diverse set of technologies and tools. With a strong grasp
-          of APIs, I have integrated them seamlessly into my projects,
-          harnessing the power of React and its various libraries to create
-          dynamic and interactive user interfaces. <br />
+          I've gained{" "}
+          <Text as="span" fontWeight="bold">
+            valuable experience through personal projects
+          </Text>
+          , exploring various technologies and tools. I excel in{" "}
+          <Text as="span" fontWeight="bold">
+            integrating APIs
+          </Text>{" "}
+          seamlessly into my projects using{" "}
+          <Text as="span" fontWeight="bold">
+            React and its libraries
+          </Text>{" "}
+          for dynamic user interfaces. <br />
+          <br /> My proficiency in{" "}
+          <Text as="span" fontWeight="bold">
+            JavaScript and TypeScript
+          </Text>{" "}
+          helps me write clean, efficient code, while{" "}
+          <Text as="span" fontWeight="bold">
+            CSS and HTML
+          </Text>{" "}
+          let me craft visually appealing designs. Additionally, I have basic
+          knowledge of{" "}
+          <Text as="span" fontWeight="bold">
+            Express, Node.js, and API testing with Postman.
+          </Text>{" "}
           <br />
-          My proficiency in JavaScript and TypeScript allows me to write clean
-          and efficient code, while CSS and HTML enable me to craft visually
-          appealing designs. <br />
           <br />
-          Additionally, I have a basic understanding of Express and Node.js,
-          complemented by my knowledge of Postman for API testing. With this
-          skill set, I am eager to tackle new challenges and contribute to
-          innovative projects.
+          Completed a couple of{" "}
+          <Text as="span" fontWeight="bold">
+            frontend mentor projects
+          </Text>{" "}
+          too!
         </Text>
       </Box>
     </>
