@@ -12,7 +12,7 @@ const Letter = ({ letter }: Props) => {
         color: "black",
         fontSize: "42px",
       }}
-      transition={{ duration: 0.4 }}
+      transition={{ duration: 0.2 }}
     >
       {letter}
     </motion.span>
