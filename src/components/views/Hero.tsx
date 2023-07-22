@@ -38,13 +38,22 @@ const Hero = () => {
           fontSize={isHigherThan480 ? "24px" : "20px"}
           textAlign={isHigherThan480 ? "unset" : "justify"}
         >
-          Hello there! I'm Luis, a passionate frontend developer with expertise
-          in creating engaging web experiences. <br />
-          <br />I turn designs into appealing, responsive websites using HTML,
-          CSS, JavaScript, React, and TypeScript. <br />
+          Hello there! I'm Luis, a passionate{" "}
+          <Text as="span" fontWeight="bold">
+            Frontend developer
+          </Text>{" "}
+          with expertise in creating engaging web experiences. <br />
+          <br />I turn designs into appealing, responsive websites using{" "}
+          <Text as="span" fontWeight="bold">
+            HTML, CSS, JavaScript, React, and TypeScript.
+          </Text>{" "}
+          <br />
           <br /> Always eager to stay up-to-date with trends, I'm excited to
-          collaborate and build something awesome together! Let's make the web a
-          better place! 🚀
+          collaborate and build something awesome together!{" "}
+          <Text as="span" fontWeight="bold">
+            Let's make the web a better place!
+          </Text>{" "}
+          🚀
         </Text>
         <HStack>
           <Link href="https://github.com/luis-moguea" isExternal>
