@@ -20,8 +20,8 @@ const Languages = ({ icon, language }: Props) => {
           margin="10px"
           mb="0"
           padding={isHigherThan480 ? "2em" : "1.8em"}
-          width={isHigherThan480 ? "65px" : "55px"}
-          height={isHigherThan480 ? "65px" : "55px"}
+          width={isHigherThan480 ? "65px" : "75px"}
+          height={isHigherThan480 ? "65px" : "75px"}
           objectFit="cover"
           src={icon}
         />
