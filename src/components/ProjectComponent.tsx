@@ -20,8 +20,8 @@ const ProjectComponent = ({ image, description, link }: Props) => {
         justifyContent={isHigherThan480 ? "space-between" : "center"}
       >
         <Image
-          width={isHigherThan480 ? "400px" : "330px"}
-          height={isHigherThan480 ? "unset" : "200px"}
+          width={isHigherThan480 ? "400px" : "300px"}
+          height={isHigherThan480 ? "unset" : "180px"}
           src={image}
         />
         <Box
@@ -33,7 +33,7 @@ const ProjectComponent = ({ image, description, link }: Props) => {
         >
           <Heading
             mt={isHigherThan480 ? "0" : "20px"}
-            fontSize={isHigherThan480 ? "36px" : "32px"}
+            fontSize={isHigherThan480 ? "36px" : "28px"}
             textAlign="justify"
           >
             {description}

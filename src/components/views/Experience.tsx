@@ -18,7 +18,7 @@ const Experience = () => {
         borderBottom="solid"
         borderColor="rgba(0, 0, 0, 0.2)"
         borderWidth="1px"
-        maxWidth={isHigherThan480 ? "unset" : "320px"}
+        maxWidth={isHigherThan480 ? "unset" : "300px"}
       >
         <Heading
           style={style}
@@ -29,7 +29,7 @@ const Experience = () => {
         </Heading>
         <Text
           mt="0"
-          maxWidth="800px"
+          maxWidth={isHigherThan480 ? "800px" : "300px"}
           fontSize={isHigherThan480 ? "24px" : "18px"}
           textAlign={isHigherThan480 ? "unset" : "justify"}
         >

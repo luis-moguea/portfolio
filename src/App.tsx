@@ -3,18 +3,22 @@ import Hero from "./components/views/Hero";
 import LanguagesSection from "./components/views/LanguagesSection";
 import Experience from "./components/views/Experience";
 import ProjectsSection from "./components/views/ProjectsSection";
-import { Box } from "@chakra-ui/react";
+import { Box, useMediaQuery } from "@chakra-ui/react";
 
 const App = () => {
+  const [isHigherThan480] = useMediaQuery("(min-width: 480px)");
+
   return (
     <>
-      <NavBar />
       <Box
         display="flex"
         flexDirection="column"
         alignItems="center"
         justifyContent="center"
+        textAlign="center"
+        maxWidth={isHigherThan480 ? "unset" : "320px"}
       >
+        <NavBar />
         <Hero />
         <LanguagesSection />
         <Experience />
