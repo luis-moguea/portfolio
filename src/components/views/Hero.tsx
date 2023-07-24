@@ -16,7 +16,7 @@ const Hero = () => {
         flexDirection="column"
         justifyContent="center"
         alignItems="center"
-        padding="2em"
+        padding={isHigherThan480 ? "2em" : "0"}
         pt="0"
         textAlign="center"
         mt={isHigherThan480 ? "-45px" : "-20px"}

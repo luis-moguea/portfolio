@@ -20,7 +20,7 @@ const NavBar = () => {
         alignItems={isHigherThan480 ? "unset" : "center"}
         marginTop="0"
         pt="0"
-        padding="2em"
+        padding={isHigherThan480 ? "2em" : "0"}
         pb="0"
       >
         <Photo icon={photo} />

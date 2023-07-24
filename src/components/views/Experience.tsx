@@ -12,7 +12,7 @@ const Experience = () => {
         display="flex"
         flexDirection="column"
         alignItems="center"
-        padding="2em"
+        padding={isHigherThan480 ? "2em" : "0"}
         pt="0"
         textAlign="center"
         borderBottom="solid"

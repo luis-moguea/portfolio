@@ -17,7 +17,7 @@ const ProjectsSection = () => {
         flexDirection="column"
         pt="0"
         mt="0"
-        padding="2em"
+        padding={isHigherThan480 ? "2em" : "0"}
         maxWidth={isHigherThan480 ? "1100px" : "380px"}
       >
         <Text

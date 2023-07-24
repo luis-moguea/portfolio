@@ -17,6 +17,7 @@ const App = () => {
         justifyContent="center"
         textAlign="center"
         maxWidth={isHigherThan480 ? "unset" : "320px"}
+        padding="0"
       >
         <NavBar />
         <Hero />
