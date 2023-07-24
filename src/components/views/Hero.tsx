@@ -26,7 +26,7 @@ const Hero = () => {
       >
         <HStack
           textAlign="center"
-          maxWidth={isHigherThan480 ? "unset" : "320px"}
+          maxWidth={isHigherThan480 ? "unset" : "300px"}
           letterSpacing={isHigherThan480 ? "unset" : "-7.5px"}
           fontSize={isHigherThan480 ? "32px" : "20px"}
         >

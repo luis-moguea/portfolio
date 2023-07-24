@@ -18,6 +18,7 @@ const App = () => {
         textAlign="center"
         maxWidth={isHigherThan480 ? "unset" : "320px"}
         padding="0"
+        margin="0 auto"
       >
         <NavBar />
         <Hero />
