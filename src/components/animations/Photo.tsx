@@ -9,7 +9,7 @@ const Languages = ({ icon }: Props) => {
 
   return (
     <motion.div
-      whileHover={{ scale: 1.2, cursor: "pointer" }}
+      whileHover={{ scale: 1.2, cursor: "pointer", rotate: -360 }}
       transition={{ duration: 0.2 }}
     >
       <Image

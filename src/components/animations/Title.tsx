@@ -12,7 +12,7 @@ const Title = ({ letter }: Props) => {
       animate={{
         y: [0, -2, 0, -4, 0, -6, 0, -10, 0, -16, 0],
         transition: {
-          duration: 4,
+          duration: 5,
           repeat: Infinity,
           repeatType: "loop",
         },
