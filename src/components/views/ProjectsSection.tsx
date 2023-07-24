@@ -23,12 +23,12 @@ const ProjectsSection = () => {
         <Box
           fontWeight="bold"
           textAlign="center"
-          mt={isHigherThan480 ? "0" : "20pxpx"}
+          mt={isHigherThan480 ? "0" : "-10px"}
           fontSize="30px"
         >
           <ProjectHeading title={projectsTitle} />
           <Text
-            mt={isHigherThan480 ? "unset" : "-30px"}
+            mt={isHigherThan480 ? "unset" : "-38px"}
             fontSize="11px"
             color="rgba(0, 0, 0, 0.6)"
           >
