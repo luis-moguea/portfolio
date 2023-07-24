@@ -20,14 +20,21 @@ const ProjectsSection = () => {
         padding={isHigherThan480 ? "2em" : "0"}
         maxWidth={isHigherThan480 ? "1100px" : "380px"}
       >
-        <Text
+        <Box
           fontWeight="bold"
           textAlign="center"
-          mt={isHigherThan480 ? "0" : "-12px"}
-          fontSize="48px"
+          mt={isHigherThan480 ? "0" : "20pxpx"}
+          fontSize="30px"
         >
           <ProjectHeading title={projectsTitle} />
-        </Text>
+          <Text
+            mt={isHigherThan480 ? "unset" : "-30px"}
+            fontSize="11px"
+            color="rgba(0, 0, 0, 0.6)"
+          >
+            Some of my projects
+          </Text>
+        </Box>
         {isHigherThan480
           ? projectsData.map((el, index) =>
               even(index) ? (

@@ -25,8 +25,9 @@ const Hero = () => {
         borderWidth="1px"
       >
         <HStack
-          maxWidth={isHigherThan480 ? "unset" : "350px"}
+          maxWidth={isHigherThan480 ? "unset" : "400px"}
           letterSpacing={isHigherThan480 ? "unset" : "-7.5px"}
+          ml={isHigherThan480 ? "unset" : "-14px"}
           fontSize={isHigherThan480 ? "32px" : "22px"}
         >
           {title.split("").map((letter, index) => (

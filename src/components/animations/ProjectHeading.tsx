@@ -6,7 +6,7 @@ interface Props {
 
 const ProjectHeading = ({ title }: Props) => {
   return (
-    <motion.div
+    <motion.h1
       whileHover={{ color: "#76D7C4", x: "-60px", cursor: "pointer" }}
       animate={{
         color: "black",
@@ -19,7 +19,7 @@ const ProjectHeading = ({ title }: Props) => {
       }}
     >
       {title}
-    </motion.div>
+    </motion.h1>
   );
 };
 
