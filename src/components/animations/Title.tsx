@@ -10,9 +10,9 @@ const Title = ({ letter }: Props) => {
       whileHover={{ y: -10, color: "#76D7C4", cursor: "pointer", rotate: 360 }}
       transition={{ type: "spring", stiffness: 500, damping: 10 }}
       animate={{
-        y: [0, -10, 0],
+        y: [0, -2, 0, -4, 0, -6, 0, -10, 0, -16, 0],
         transition: {
-          duration: 2,
+          duration: 4,
           repeat: Infinity,
           repeatType: "loop",
         },

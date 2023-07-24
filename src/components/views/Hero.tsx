@@ -25,8 +25,10 @@ const Hero = () => {
         borderWidth="1px"
       >
         <HStack
+          textAlign="center"
+          maxWidth={isHigherThan480 ? "unset" : "320px"}
           letterSpacing={isHigherThan480 ? "unset" : "-7.5px"}
-          fontSize={isHigherThan480 ? "32px" : "23px"}
+          fontSize={isHigherThan480 ? "32px" : "20px"}
         >
           {title.split("").map((letter, index) => (
             <Title key={index} letter={letter} />
@@ -34,8 +36,8 @@ const Hero = () => {
         </HStack>
         <Text
           mt={isHigherThan480 ? "0" : "20px"}
-          maxWidth={isHigherThan480 ? "unset" : "360px"}
-          fontSize={isHigherThan480 ? "24px" : "20px"}
+          maxWidth={isHigherThan480 ? "unset" : "300px"}
+          fontSize={isHigherThan480 ? "24px" : "18px"}
           textAlign={isHigherThan480 ? "unset" : "justify"}
         >
           Hello there! I'm Luis, a passionate{" "}
