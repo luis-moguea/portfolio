@@ -18,7 +18,7 @@ const NavBar = () => {
         flexDirection={isHigherThan480 ? "unset" : "column"}
         justifyContent={isHigherThan480 ? "space-between" : "center"}
         alignItems={isHigherThan480 ? "unset" : "center"}
-        marginTop="0"
+        marginTop={isHigherThan480 ? "0" : "10px"}
         pt="0"
         padding={isHigherThan480 ? "2em" : "0"}
         pb="0"

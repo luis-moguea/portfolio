@@ -10,6 +10,7 @@ const App = () => {
 
   return (
     <>
+      <NavBar />
       <Box
         display="flex"
         flexDirection="column"
@@ -20,7 +21,6 @@ const App = () => {
         padding="0"
         margin="0 auto"
       >
-        <NavBar />
         <Hero />
         <LanguagesSection />
         <Experience />
