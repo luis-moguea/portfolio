@@ -4,7 +4,7 @@ import dashboardPng from "../assets/dashboard-png.png"
 import gamesPng from "../assets/games-png.png"
 import langPng from "../assets/lang-png.png"
 import crudPng from "../assets/crud-png.png"
-import wisePng from "../assets/crud-png.png"
+import wisePng from "../assets/wise-png.png"
 
 
 export const projectsData = [
