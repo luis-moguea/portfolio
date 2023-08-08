@@ -3,6 +3,9 @@ import weatherPng from "../assets/weather-png.png"
 import dashboardPng from "../assets/dashboard-png.png"
 import gamesPng from "../assets/games-png.png"
 import langPng from "../assets/lang-png.png"
+import crudPng from "../assets/crud-png.png"
+import wisePng from "../assets/crud-png.png"
+
 
 export const projectsData = [
     {
@@ -17,6 +20,18 @@ export const projectsData = [
         description: "Todo app using React, TypeScript, Chakra UI, and React dnd.",
         deployment: "https://dnd-todo-git-main-luis-moguea.vercel.app/"
 
+    },
+    {
+        project: "Wise-app",
+        projectPng: wisePng,
+        description: "Dashboard interface using React and TypesScript.",
+        deployment: "https://wise-test-git-main-luis-moguea.vercel.app/"
+    },
+    {
+        project: "Crud-app",
+        projectPng: crudPng,
+        description: "Crud app using React, TypeScript Chakra UI and the JSON placeholder API",
+        deployment: "https://crud-kaktgymqu-luis-moguea.vercel.app"
     },
     {
         project: "Weather App",
