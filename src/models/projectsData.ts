@@ -11,7 +11,7 @@ export const projectsData = [
     {
         project: "Videogames App",
         projectPng: gamesPng,
-        description: "Videogames app using React, Chakra UI and the RAWG api.",
+        description: "Videogames app using React, Chakra UI and the RAWG API.",
         deployment: "https://react-videogames-dashboard.vercel.app/"
     },
     {
@@ -30,13 +30,13 @@ export const projectsData = [
     {
         project: "Crud-app",
         projectPng: crudPng,
-        description: "Crud app using React, TypeScript Chakra UI and the JSON placeholder API",
+        description: "Crud app using React, TypeScript Chakra UI and the JSON placeholder API.",
         deployment: "https://crud-kaktgymqu-luis-moguea.vercel.app"
     },
     {
         project: "Weather App",
         projectPng: weatherPng,
-        description: "Weather app using React, TypeScript, Chakra UI, and the OpenWeather api.",
+        description: "Weather app using React, TypeScript, Chakra UI, and the OpenWeather API.",
         deployment: "https://main--silly-souffle-fd6989.netlify.app/"
     },
     {

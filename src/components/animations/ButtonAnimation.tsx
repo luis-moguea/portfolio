@@ -14,7 +14,7 @@ const ButtonAnimation = ({ link }: Props) => {
       <Link href={link} isExternal textDecoration="none">
         <Button
           color="#000000"
-          width={isHigherThan480 ? "unset" : "200px"}
+          width={isHigherThan480 ? "300px" : "200px"}
           height={isHigherThan480 ? "unset" : "40px"}
           mt="0"
           border="none"
