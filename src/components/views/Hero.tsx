@@ -61,7 +61,12 @@ const Hero = () => {
           <Link href="https://github.com/luis-moguea" isExternal>
             <Icons image={githubIcon} />
           </Link>
-          <Icons image={linkedInIcon} />
+          <Link
+            href="https://www.linkedin.com/in/luis-moguea-97458825b/"
+            isExternal
+          >
+            <Icons image={linkedInIcon} />
+          </Link>
         </HStack>
       </Box>
     </>
