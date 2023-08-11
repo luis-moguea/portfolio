@@ -37,7 +37,7 @@ const Hero = () => {
         <Text
           mt={isHigherThan480 ? "0" : "20px"}
           maxWidth={isHigherThan480 ? "800px" : "300px"}
-          fontSize={isHigherThan480 ? "24px" : "14px"}
+          fontSize={isHigherThan480 ? "24px" : "16px"}
           textAlign={isHigherThan480 ? "unset" : "justify"}
         >
           Hi there! I'm Luis, I turn designs into appealing, responsive websites

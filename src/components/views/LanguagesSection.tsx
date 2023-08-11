@@ -23,7 +23,7 @@ const LanguagesSection = () => {
           textAlign="center"
           backgroundClip="text"
           style={style}
-          fontSize={isHigherThan480 ? "36px" : "34px"}
+          fontSize={isHigherThan480 ? "36px" : "28px"}
         >
           <LanguageHeading title={langTitle} />
         </Heading>

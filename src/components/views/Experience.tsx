@@ -23,14 +23,14 @@ const Experience = () => {
         <Heading
           style={style}
           backgroundClip="text"
-          fontSize={isHigherThan480 ? "36px" : "34px"}
+          fontSize={isHigherThan480 ? "36px" : "28px"}
         >
           <ExperienceHeading title={experienceHead} />
         </Heading>
         <Text
           mt="0"
           maxWidth={isHigherThan480 ? "800px" : "300px"}
-          fontSize={isHigherThan480 ? "24px" : "14px"}
+          fontSize={isHigherThan480 ? "24px" : "16px"}
           textAlign={isHigherThan480 ? "unset" : "justify"}
         >
           I've gained{" "}
