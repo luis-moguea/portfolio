@@ -13,8 +13,8 @@ const Languages = ({ icon }: Props) => {
       transition={{ duration: 0.2 }}
     >
       <Image
-        width={isHigherThan480 ? "80px" : "200px"}
-        height={isHigherThan480 ? "unset" : "200px"}
+        width={isHigherThan480 ? "80px" : "100px"}
+        height={isHigherThan480 ? "unset" : "100px"}
         borderRadius="50%"
         boxShadow="1px 1px 8px 1px rgba(0, 0, 0, 0.2)"
         src={icon}
