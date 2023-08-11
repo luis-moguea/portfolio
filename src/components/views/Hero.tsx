@@ -36,18 +36,14 @@ const Hero = () => {
         </HStack>
         <Text
           mt={isHigherThan480 ? "0" : "20px"}
-          maxWidth={isHigherThan480 ? "unset" : "300px"}
+          maxWidth={isHigherThan480 ? "800px" : "300px"}
           fontSize={isHigherThan480 ? "24px" : "18px"}
           textAlign={isHigherThan480 ? "unset" : "justify"}
         >
-          Hello there! I'm Luis, a passionate{" "}
+          Hi there! I'm Luis, I turn designs into appealing, responsive websites
+          using primarily{" "}
           <Text as="span" fontWeight="bold">
-            Frontend developer
-          </Text>{" "}
-          with expertise in creating engaging web experiences. <br />
-          <br />I turn designs into appealing, responsive websites using{" "}
-          <Text as="span" fontWeight="bold">
-            HTML, CSS, JavaScript, React, and TypeScript.
+            React, JavaScript, TypeScript, HTML and Cascading Style Sheets.
           </Text>{" "}
           <br />
           <br /> Always eager to stay up-to-date with trends, I'm excited to
