@@ -24,7 +24,7 @@ export const projectsData = [
     {
         project: "Wise-app",
         projectPng: wisePng,
-        description: "Dashboard interface using React and TypesScript.",
+        description: "Dashboard interface using React and TypeScript.",
         deployment: "https://wise-test-git-main-luis-moguea.vercel.app/"
     },
     {
