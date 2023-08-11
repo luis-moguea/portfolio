@@ -33,7 +33,7 @@ const ProjectComponent = ({ image, description, link }: Props) => {
         >
           <Heading
             mt={isHigherThan480 ? "0" : "20px"}
-            fontSize={isHigherThan480 ? "36px" : "28px"}
+            fontSize={isHigherThan480 ? "36px" : "24px"}
             textAlign="justify"
           >
             {description}
