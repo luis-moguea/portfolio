@@ -28,7 +28,7 @@ const Hero = () => {
           maxWidth={isHigherThan480 ? "unset" : "400px"}
           letterSpacing={isHigherThan480 ? "unset" : "-7.5px"}
           ml={isHigherThan480 ? "unset" : "-12px"}
-          fontSize={isHigherThan480 ? "32px" : "22px"}
+          fontSize={isHigherThan480 ? "32px" : "18px"}
         >
           {title.split("").map((letter, index) => (
             <Title key={index} letter={letter} />
@@ -37,7 +37,7 @@ const Hero = () => {
         <Text
           mt={isHigherThan480 ? "0" : "20px"}
           maxWidth={isHigherThan480 ? "800px" : "300px"}
-          fontSize={isHigherThan480 ? "24px" : "18px"}
+          fontSize={isHigherThan480 ? "24px" : "14px"}
           textAlign={isHigherThan480 ? "unset" : "justify"}
         >
           Hi there! I'm Luis, I turn designs into appealing, responsive websites
