@@ -1,5 +1,5 @@
 import { Box } from "@chakra-ui/react";
-import photo from "../../assets/pro-pic-upd.jpeg";
+import photo from "../../assets/profile-upd.jpg";
 import Name from "../Name";
 import Photo from "../animations/Photo";
 import { useMediaQuery } from "@chakra-ui/react";
