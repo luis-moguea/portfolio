@@ -1,6 +1,5 @@
 import bashIcon from "../assets/bash-png.png"
 import gitIcon from "../assets/git-img.png"
-import linuxIcon from "../assets/Linux-img.png"
 import expressIcon from "../assets/express-png.png"
 import htmlIcon from "../assets/html-png.png"
 import jsIcon from "../assets/js.png.png"
@@ -10,24 +9,9 @@ import postmanIcon from "../assets/postman-png.png"
 import tsIcon from "../assets/types-img.png"
 import cssIcon from "../assets/css-png.png"
 import reactIcon from "../assets/reactjs.png"
+import chakraIcon from "../assets/chakra.png"
 
 export const languagesData = [
-    {
-        icon: bashIcon,
-        language: "Bash"
-    },
-    {
-        icon: gitIcon,
-        language: "Git"
-    },
-    {
-        icon: expressIcon,
-        language: "Express"
-    },
-    {
-        icon: cssIcon,
-        language: "CSS"
-    },
     {
         icon: reactIcon,
         language: "React JS"
@@ -41,8 +25,28 @@ export const languagesData = [
         language: "TypeScript"
     },
     {
+        icon: cssIcon,
+        language: "CSS"
+    },
+    {
         icon: htmlIcon,
         language: "HTML"
+    },
+    {
+        icon: chakraIcon,
+        language: "Chakra UI"
+    },
+    {
+        icon: bashIcon,
+        language: "Bash"
+    },
+    {
+        icon: gitIcon,
+        language: "Git"
+    },
+    {
+        icon: expressIcon,
+        language: "Express"
     },
     {
         icon: nodeIcon,
@@ -51,10 +55,6 @@ export const languagesData = [
     {
         icon: mongoIcon,
         language: "MongoDB"
-    },
-    {
-        icon: linuxIcon,
-        language: "Linux"
     },
     {
         icon: postmanIcon,
