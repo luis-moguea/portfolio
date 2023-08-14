@@ -58,7 +58,7 @@ const Hero = () => {
             <Icons image={githubIcon} />
           </Link>
           <Link
-            href="https://www.linkedin.com/in/luis-moguea-97458825b/"
+            href="https://www.linkedin.com/in/luis-moguea-carrasco-97458825b/"
             isExternal
           >
             <Icons image={linkedInIcon} />
