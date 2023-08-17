@@ -10,7 +10,11 @@ const Languages = ({ icon, language }: Props) => {
 
   return (
     <motion.div
-      whileHover={{ scale: 1.2, cursor: "pointer" }}
+      whileHover={
+        isHigherThan480
+          ? { scale: 1.2, cursor: "pointer" }
+          : { scale: 1.1, cursor: "pointer" }
+      }
       transition={{ duration: 0.4 }}
     >
       <Box textAlign="center">
@@ -20,8 +24,8 @@ const Languages = ({ icon, language }: Props) => {
           margin="10px"
           mb="0"
           padding={isHigherThan480 ? "2em" : "1.8em"}
-          width={isHigherThan480 ? "65px" : "75px"}
-          height={isHigherThan480 ? "65px" : "75px"}
+          width={isHigherThan480 ? "80px" : "75px"}
+          height={isHigherThan480 ? "80px" : "75px"}
           objectFit="cover"
           src={icon}
         />

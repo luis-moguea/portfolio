@@ -30,7 +30,7 @@ const Experience = () => {
         <Text
           mt="0"
           maxWidth={isHigherThan480 ? "800px" : "300px"}
-          fontSize={isHigherThan480 ? "24px" : "16px"}
+          fontSize={isHigherThan480 ? "20px" : "16px"}
           textAlign={isHigherThan480 ? "unset" : "justify"}
         >
           I've gained{" "}

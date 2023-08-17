@@ -29,7 +29,7 @@ const ProjectsSection = () => {
           <ProjectHeading title={projectsTitle} />
           <Text
             mt={isHigherThan480 ? "-40px" : "-38px"}
-            fontSize="11px"
+            fontSize="15px"
             color="rgba(0, 0, 0, 0.4)"
           >
             Some of my projects

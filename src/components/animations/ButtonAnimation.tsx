@@ -10,13 +10,13 @@ const ButtonAnimation = ({ link }: Props) => {
   const [isHigherThan480] = useMediaQuery("(min-width: 480px)");
 
   return (
-    <motion.div whileHover={{ x: "30px" }} transition={{ duration: 0.2 }}>
+    <motion.div whileHover={{ x: "10px" }} transition={{ duration: 0.2 }}>
       <Link href={link} isExternal textDecoration="none">
         <Button
           color="#000000"
           width={isHigherThan480 ? "300px" : "200px"}
           height={isHigherThan480 ? "unset" : "40px"}
-          mt="0"
+          mt={isHigherThan480 ? "30px" : "0"}
           border="none"
           fontSize="12px"
           padding="1em"
@@ -25,6 +25,7 @@ const ButtonAnimation = ({ link }: Props) => {
           bgColor="#D5D8DC"
           cursor="pointer"
           _hover={{ opacity: "0.3" }}
+          float="left"
         >
           See Project →
         </Button>

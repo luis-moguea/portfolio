@@ -11,7 +11,7 @@ const ProjectComponentOdd = ({ image, description, link }: Props) => {
     <>
       <Box display="flex" padding="2em" justifyContent="space-between">
         <Box marginX="40px">
-          <Heading mt="0" fontSize="36px" textAlign="justify">
+          <Heading mt="0" fontSize="24px" textAlign="justify">
             {description}
           </Heading>
           <ButtonAnimation link={link} />

@@ -10,6 +10,9 @@ import tsIcon from "../assets/types-img.png"
 import cssIcon from "../assets/css-png.png"
 import reactIcon from "../assets/reactjs.png"
 import chakraIcon from "../assets/chakra.png"
+import figmaIcon from "../assets/figma-png.png"
+import sassIcon from "../assets/sass.png"
+
 
 export const languagesData = [
     {
@@ -59,6 +62,14 @@ export const languagesData = [
     {
         icon: postmanIcon,
         language: "Postman"
+    },
+    {
+        icon: sassIcon,
+        language: "Sass"
+    },
+    {
+        icon: figmaIcon,
+        language: "Figma"
     },
 ]
 
