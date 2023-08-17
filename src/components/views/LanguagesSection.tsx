@@ -28,7 +28,7 @@ const LanguagesSection = () => {
           <LanguageHeading title={langTitle} />
         </Heading>
         <SimpleGrid
-          columns={isHigherThan480 ? 4 : 2}
+          columns={isHigherThan480 ? 5 : 2}
           columnGap={isHigherThan480 ? "30px" : "20px"}
         >
           {languagesData.map((el, index) => (
