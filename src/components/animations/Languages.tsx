@@ -26,7 +26,7 @@ const Languages = ({ icon, language }: Props) => {
           padding={isHigherThan480 ? "2em" : "1.8em"}
           width={isHigherThan480 ? "80px" : "75px"}
           height={isHigherThan480 ? "80px" : "75px"}
-          objectFit="cover"
+          objectFit="scale-down"
           src={icon}
         />
         <Text
